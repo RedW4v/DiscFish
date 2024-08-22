@@ -1,0 +1,43 @@
+<!-- Código para la materia de seguridad informática con fines académicos -->
+<!-- Apoyado del compañero Yael C. S. para el servidor con javascript express -->
+<!-- Apoyado del video https://www.youtube.com/watch?v=On5S5PAIQ6c para el estilo de la página -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-ic-box">
+            <div class="sol-box">
+                <div class="grants">
+                    <h2>¡Te damos la bienvenida de nuevo!</h2>
+                    <br>
+                    <span>¡Nos alegra verte de nuevo!</span>
+                </div>
+                <form class="form-box" id="loginForm">
+                    <h5 style="color: #A7ABB2; ">CORREO ELECTRÓNICO O NÚMERO DE TELÉFONO<span style="color: red;">*</span></h5>
+                    <input type="text" id="username" name="username">
+                    <h5 style="color: #A7ABB2;">CONTRASEÑA <span style="color: red;">*</span></h5>
+                    <input type="password" id="password" name="password">
+                    <a href=""><div class="olvidada">¿Olvidaste tu contraseña?</div></a>
+                    <br>
+                    <button class="login-button" type="submit">Iniciar sesión</button>
+                    <span class="necesidad">¿Necesitas una cuenta? <font class="olvidada">Registrarse</font></span>
+                </form>
+            </div>
+            <div class="sag-box">
+                <img src="./QR.png" alt="">
+                <h2>Inicia sesión con el código QR</h2>
+                <div>Escanea el código con la <strong>aplición para dispositivos móviles de Discord</strong> para iniciar sesión de inmediato.</div>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

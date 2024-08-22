@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    background: url(./Fondo2.png) no-repeat;
+    color:#8e9297;
+    line-height:10px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.login-box{
+    width:781px;
+    height:370px;
+    background-color: #313338;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 28px;
+}
+
+.login-ic-box{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sol-box{
+    width: 450px;
+}
+
+.sol-box h2{
+    color: white;
+}
+
+.sol-box span{
+    color: #b9bbbe;
+}
+
+.sol-box input[type="text"],
+.sol-box input[type="password"] {
+    background-color: #1E1F22;
+    color: white;
+    outline: none;
+}
+
+.form-box{
+    font-size: smaller;
+    padding-top: 10px;
+}
+.grants{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sol-box input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #303338;
+    border: 1px solid #212327;
+    padding: 13px;
+}
+.olvidada{
+    color: #00aff4;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-button{
+    text-align: center;
+    background-color: #5865f2;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.necesidad{
+    color: #72767d;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.sag-box{
+    right: 10px;
+    width: 250px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sag-box h2{
+    color: white;
+}
+
+@media only screen and (max-width: 760px){
+    .sag-box{
+        display: none;
+    }
+}

